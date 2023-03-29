@@ -15,7 +15,31 @@
 
 <div class="row">
   <div class="column side" style="background-color:#aaa;">Left</div>
-  <div class="column middle" style="background-color:#bbb;">Middle</div>
+  <div class="column middle" style="background-color:#bbb;">
+    <p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+    
+    Middle</div>
   <div class="column side" style="background-color:#ccc;">Right</div>
 </div>
 
