@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="mystyle.css">
+  <script src="script.js"></script>
 </head>
 <body>
   
@@ -14,7 +15,7 @@
 </div>
 
 <div class="row">
-  <div class="column side" style="background-color:#aaa;">Left</div>
+  <div class="column side">Left</div>
   <div class="column middle" style="background-color:#bbb;">
     <p>Click the button to get your coordinates.</p>
 
@@ -22,30 +23,13 @@
 
 <p id="demo"></p>
 
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-    
-    Middle</div>
-  <div class="column side" style="background-color:#ccc;">Right</div>
+Middle</div>
+  <div class="column side">Right</div>
 </div>
 
   <!-- Write your comments here -->
 <div class="footer">
-  <p>© 2023 Steel Cantspeak</p>
+  <p href="https://github.com/SteelCantSpeak/SteelCantSpeak.github.io">© 2023 Steel Cantspeak</p>
 </div>
 
 </body>
