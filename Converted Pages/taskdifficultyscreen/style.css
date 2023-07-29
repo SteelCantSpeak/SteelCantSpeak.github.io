@@ -1,0 +1,33 @@
+.task-recieve-daytime, .task-recieve-daytime * { box-sizing: border-box; }.task-recieve-daytime {background: #e5f7fd; width: 834px; height: 1194px; position: relative; overflow: hidden;}
+ .cloud-bg-group {position: absolute; inset: 0;}
+ .image-17 {width: 230px; height: 97px; position: absolute; left: -63px;top: 806px;}
+ .image-18 {width: 230px; height: 97px; position: absolute; left: 712px;top: 646px;}
+ .image-19 {width: 318px; height: 134px; position: absolute; left: -21px;top: 423px;}
+ .image-20 {width: 245px; height: 104px; position: absolute; left: 827px;top: 305px; transform-origin: 0 0; transform: rotate(0deg) scale(-1, 1);}
+ .image-21 {width: 245px; height: 104px; position: absolute; left: 521px;top: 624px; transform-origin: 0 0; transform: rotate(0deg) scale(-1, 1);}
+ .image-22 {width: 245px; height: 104px; position: absolute; left: 854px;top: 885px; transform-origin: 0 0; transform: rotate(0deg) scale(-1, 1);}
+ .ellipse-16 {background: #83db3e; border-radius: 50%; width: 720px; height: 257px; position: absolute; left: 421px;top: 1026px;}
+ .ellipse-15 {background: #97ea44; border-radius: 50%; width: 720px; height: 257px; position: absolute; left: -164px;top: 1104px;}
+ .clouds-shadow {position: absolute; left: -107px;top: -150px; overflow: visible;}
+ .clouds {position: absolute; left: -98px;top: -154px; overflow: visible;}
+ .the-amazing-race {color: #ffffff; text-align: center; font: 800 40px 'Inter', sans-serif; position: absolute; left: 374px;top: 33px; width: 470px; height: 73px; display: flex;align-items: center;justify-content: center}
+ .welcome-board {background: #4b72bf; border-style: solid; border-color: #4b72bf; border-width: 22px; width: 600px; height: 479px; position: absolute; left: 112px;top: 510px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .b-start {background: #4b72bf; border-style: solid; border-color: #4b72bf; border-width: 28px; width: 400px; height: 58px; position: absolute; left: 221px;top: 1075px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .enter-game {color: #ffffff; text-align: center; font: 700 48px 'Inter', sans-serif; position: absolute; left: 196px;top: 1069px; width: 454px; height: 71px; display: flex;align-items: center;justify-content: center}
+ .image-16 {width: 279px; height: 147px; position: absolute; left: 181px;top: 1067px; transform-origin: 0 0; transform: rotate(0deg) scale(-1, 1);}
+ .the-amazing-race2 {color: #8db7e8; text-align: center; font: 800 48px 'Inter', sans-serif; position: absolute; left: 52px;top: 33px; width: 483px; height: 88px; display: flex;align-items: center;justify-content: center}
+ .image-15 {width: 385px; height: 203px; position: absolute; left: 556px;top: 1026px;}
+ .image-23 {width: 162px; height: 156px; position: absolute; left: 641px;top: 25px;}
+ .choose-your-difficulty {color: #ffffff; text-align: center; font: 400 48px 'Inter', sans-serif; position: absolute; left: 154px;top: 510px; width: 525px; height: 80px; display: flex;align-items: center;justify-content: center}
+ .welcome-board2 {background: #4b72bf; border-style: solid; border-color: #4b72bf; border-width: 22px; width: 668px; height: 175px; position: absolute; left: 83px;top: 270px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .welcome-board3 {background: #355ca8; border-style: solid; border-color: #355ca8; border-width: 22px; width: 612px; height: 30px; position: absolute; left: 112px;top: 293px;}
+ .task-name {color: #ffffff; text-align: center; font: 700 36px 'Inter', sans-serif; position: absolute; left: 117px;top: 270px; width: 600px; height: 71px; display: flex;align-items: center;justify-content: center}
+ .this-block-of-text-describes-the-task-this-will-be-automatically-updated-per-task-this-will-include-what-you-need-to-do-for-the-task-and-how-to-complete-the-task {color: #ffffff; text-align: center; font: 400 20px 'Inter', sans-serif; position: absolute; left: 118px;top: 317px; width: 600px; height: 169px; display: flex;align-items: center;justify-content: center}
+ .checkbox {background: #243d72; border-style: solid; border-color: #193266; border-width: 5px; width: 40px; height: 38px; position: absolute; left: 221px;top: 622px;}
+ .checkbox2 {background: #243d72; border-style: solid; border-color: #193266; border-width: 5px; width: 40px; height: 38px; position: absolute; left: 221px;top: 712px;}
+ .easy {color: #ffffff; text-align: center; font: 700 36px 'Inter', sans-serif; position: absolute; left: 214px;top: 618px; width: 283px; height: 46px; display: flex;align-items: center;justify-content: center}
+ .medium {color: #ffffff; text-align: center; font: 700 36px 'Inter', sans-serif; position: absolute; left: 214px;top: 708px; width: 283px; height: 46px; display: flex;align-items: center;justify-content: center}
+ .checkbox3 {background: #243d72; border-style: solid; border-color: #193266; border-width: 5px; width: 40px; height: 38px; position: absolute; left: 221px;top: 803px;}
+ .hard {color: #ffffff; text-align: center; font: 700 36px 'Inter', sans-serif; position: absolute; left: 214px;top: 798px; width: 283px; height: 47px; display: flex;align-items: center;justify-content: center}
+ .checkbox4 {background: #243d72; border-style: solid; border-color: #193266; border-width: 5px; width: 40px; height: 38px; position: absolute; left: 221px;top: 895px;}
+ .ultra-h-ard {color: #ffffff; text-align: center; font: 700 36px 'Inter', sans-serif; position: absolute; left: 237px;top: 894px; width: 283px; height: 47px; display: flex;align-items: center;justify-content: center}

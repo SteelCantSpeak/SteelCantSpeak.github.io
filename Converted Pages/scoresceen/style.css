@@ -1,0 +1,32 @@
+.score-screen, .score-screen * { box-sizing: border-box; }.score-screen {background: #c2a4e0; width: 834px; height: 1194px; position: relative; overflow: hidden;}
+ .clouds-shadow {position: absolute; left: -107px;top: -150px; overflow: visible;}
+ .clouds {position: absolute; left: -98px;top: -154px; overflow: visible;}
+ .clouds-bg-group {position: absolute; left: -74px;top: 220px; overflow: visible;}
+ .the-amazing-race {color: #ffffff; text-align: center; font: 800 40px 'Inter', sans-serif; position: absolute; left: 374px;top: 33px; width: 470px; height: 73px; display: flex;align-items: center;justify-content: center}
+ .welcome-board {background: #864bbf; border-style: solid; border-color: #864bbf; border-width: 22px; width: 668px; height: 20px; position: absolute; left: 83px;top: 270px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .welcome-board2 {background: #864bbf; border-style: solid; border-color: #864bbf; border-width: 22px; width: 668px; height: 648px; position: absolute; left: 83px;top: 367px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .team-3 {color: #ffffff; text-align: center; font: 700 20px 'Inter', sans-serif; position: absolute; left: 541px;top: 571px; width: 141px; height: 23px; display: flex;align-items: center;justify-content: center}
+ .welcome-board3 {background: #592889; width: 194px; height: 216px; position: absolute; left: 321px;top: 484px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .welcome-board4 {background: #592889; width: 194px; height: 85px; position: absolute; left: 515px;top: 615px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .welcome-board5 {background: #592889; width: 194px; height: 115px; position: absolute; left: 127px;top: 585px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .b-start {background: #553996; border-style: solid; border-color: #553996; border-width: 28px; width: 302px; height: 11px; position: absolute; left: 266px;top: 1131px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+ .end-game {color: #ffffff; text-align: center; font: 700 48px 'Inter', sans-serif; position: absolute; left: 190px;top: 1099px; width: 454px; height: 71px; display: flex;align-items: center;justify-content: center}
+ .image-6 {width: 725px; height: 307px; position: absolute; left: 573px;top: 903px;}
+ .scores {color: #ffffff; text-align: center; font: 700 48px 'Inter', sans-serif; position: absolute; left: 112px;top: 247px; width: 600px; height: 71px; display: flex;align-items: center;justify-content: center}
+ .image-7 {width: 399px; height: 169px; position: absolute; left: -235px;top: 1041px;}
+ .stars {position: absolute; left: 56px;top: 5px; overflow: visible;}
+ .stars2 {position: absolute; left: 484px;top: 20px; overflow: visible;}
+ .ellipse-17 {background: #d9d9d9; border-radius: 50%; width: 77px; height: 77px; position: absolute; left: 379px;top: 508px;}
+ .ellipse-18 {background: #d9d9d9; border-radius: 50%; width: 69px; height: 69px; position: absolute; left: 190px;top: 600px;}
+ .ellipse-19 {background: #d9d9d9; border-radius: 50%; width: 54px; height: 54px; position: absolute; left: 585px;top: 630px;}
+ .ellipse-20 {background: #d9d9d9; border-radius: 50%; width: 54px; height: 54px; position: absolute; left: 170px;top: 742px;}
+ .ellipse-21 {background: #d9d9d9; border-radius: 50%; width: 54px; height: 54px; position: absolute; left: 170px;top: 815px;}
+ .ellipse-22 {background: #d9d9d9; border-radius: 50%; width: 54px; height: 54px; position: absolute; left: 170px;top: 888px;}
+ .team-1 {color: #ffffff; text-align: center; font: 700 20px 'Inter', sans-serif; position: absolute; left: 349px;top: 438px; width: 141px; height: 23px; display: flex;align-items: center;justify-content: center}
+ .team-4 {color: #ffffff; text-align: center; font: 700 20px 'Inter', sans-serif; position: absolute; left: 229px;top: 758px; width: 141px; height: 23px; display: flex;align-items: center;justify-content: center}
+ .team-5 {color: #ffffff; text-align: center; font: 700 20px 'Inter', sans-serif; position: absolute; left: 229px;top: 832px; width: 141px; height: 23px; display: flex;align-items: center;justify-content: center}
+ .team-6 {color: #ffffff; text-align: center; font: 700 20px 'Inter', sans-serif; position: absolute; left: 229px;top: 905px; width: 141px; height: 23px; display: flex;align-items: center;justify-content: center}
+ .team-2 {color: #ffffff; text-align: center; font: 700 20px 'Inter', sans-serif; position: absolute; left: 153px;top: 544px; width: 141px; height: 23px; display: flex;align-items: center;justify-content: center}
+ ._2 {width: 83px; height: 85px; position: absolute; left: 221px;top: 584px;}
+ ._1 {width: 112px; height: 114px; position: absolute; left: 412px;top: 481px;}
+ ._3 {width: 68px; height: 69px; position: absolute; left: 609px;top: 615px;}
