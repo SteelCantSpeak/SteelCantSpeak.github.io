@@ -7,13 +7,8 @@ var path = window.location.pathname;
 var page = path.split("/").pop();
 
 let a = b = c = d = "";
-let adjustLink = `../`;
-let adjustPages = "";
 if (page == "index.html") {
     a = `class = "active"`;
-    //Since not on Same Branch, adjust when needed
-    adjustLink = "";
-    adjustPages = "pages/";
 }
 if (page == "folio.html") {
     b = `class = "active"`;
@@ -27,13 +22,13 @@ if (page == "sample") {
 }
 
 
-header.innerHTML = `<a href="index.html"><img src="${adjustLink}images/Header.png" style="width:50%; min-width:300px;"/></a>`;
+header.innerHTML = `<a href="index.html"><img src="images/Header.png" style="width:50%; min-width:300px;"/></a>`;
 
 
 navbar.innerHTML = ` <ul>
-            <li><a ${a} href="${adjustLink}index.html">Home</a></li>
-            <li><a ${b} href="${adjustPages}folio.html">Portfolio</a></li>
-            <li><a ${c} href="${adjustPages}about.html">About</a></li>
+            <li><a ${a} href="index.html">Home</a></li>
+            <li><a ${b} href="folio.html">Portfolio</a></li>
+            <li><a ${c} href="about.html">About</a></li>
             <li><a ${d} href="">Sample</a></li>
             <li style="float:right"><a href="https://github.com/SteelCantSpeak"><i class="fa fa-github"></i></a></li>
             <li style="float:right"><a href="https://www.linkedin.com/in/cschndr/"><i class="fa fa-linkedin"></i></a></li>
