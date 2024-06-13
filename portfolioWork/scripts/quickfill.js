@@ -11,9 +11,7 @@ if (page == "index.html") {
     a = `class = "active"`;
 }
 if (page == "folio.html") {
-    b = `class = "active"`;
-    fillFolio();
-}
+    b = `class = "active"`;}
 if (page == "about.html") {
     c = `class = "active"`;
 }
@@ -35,9 +33,3 @@ navbar.innerHTML = ` <ul>
         </ul>`;
 
 footer.innerHTML = `<p style="color:black;">Copyright 2023-2024</p>`;
-
-
-function fillFolio() {
-
-    //TODO: Fill with read Values and formatting
-}
