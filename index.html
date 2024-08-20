@@ -1,46 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>SteelCantSpeak | Software & Game Developer</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelCantSpeak | Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth; /* For modern browsers */
+        }
 
-    <link rel="stylesheet" href="formats/folio.css" />
-    <script defer src="portfolioWork/scripts/pong.js"></script>
-    <script defer src="portfolioWork/scripts/quickfill.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        body {
+            background-color: rgba(186,192,226,0.5);
+        }
 
+        .hero-section {
+            background: url("images/blake-connally-IKUYGCFmfw4-unsplash.jpg") no-repeat center center;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            background-blend-mode: multiply;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
 
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .project-card {
+            transition: transform 0.3s;
+        }
+        
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+
+        .footer .social-icons a {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin: 0 10px;
+        }
+        
+        .footer .social-icons a:hover {
+            color: #adb5bd;
+        }
+
+        .footer .copyright {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header id="quickHeader">
-    </header>
-    <nav id="quickNavbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/log.png" alt="" width="30" height="30">
+        </a>
+        <a class="navbar-brand" href="#">SteelCantSpeak</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <div id="page-container">
-        <div id="content-wrap">
-            <div>
-                <h1>Fixing all issues with spellcheck and reading all the Docs.</h1>
 
-                <div id="pingGame">
-                    <canvas id="gameCanvas" width="800" height="400"></canvas>
-                    <p style="color:black;"><i>My Last Braincell begging for freedom.</i></p>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div>
+            <h1>Hello, I'm SteelCantSpeak</h1>
+            <p>I'm a passionate programmer and web developer with Funky Cognition</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  bg-light rounded shadow">
+                    <h2>About Me</h2>
+                    <p>
+                        As an individual with autism, I bring a unique and creative perspective to my work, often channeling my passion into developing small-scale games or websites with quirky gimmicks like 3D rendering or animation (though, admittedly, the graphics might not always be top-notch). My deep focus and attention to detail fuel my projects, allowing me to explore innovative ideas and unconventional approaches. Outside of my professional work, I find joy in playing casual games such as Animal Crossing and Minecraft, which provide a relaxing and fun balance to my tech-driven endeavors. This blend of creativity, meticulousness, and playfulness defines who I am and shapes the projects I undertake.
+                    </p>
                 </div>
-                <p>
-                    Call me Steel Cantspeak. I'm a Software Developer that primarily focuses on Random Code Projects that amuse me.
-
-                    Often this includes small games, or websites that revolve around a minor Gimmick such as 3d rendering or animation (Though the graphics will be terrible). Outside of my own work, I generally enjoy playing casual games such as Animal Crossing or Minecraft.
-
-                    Feel free to contact me if you wish to enquire about my Works, or to hire me to make something.
-                    <br />
-                    <br />
-                    <a class="button" href="https://github.com/SteelCantSpeak"> GIT</a>
-                    <a class="button" href="about.html"> CV</a>
-                </p>
+                <div class="col-lg-6">
+                    <img src="images/cv2.png" alt="Your Photo" style="max-height:50vh;" class="img-fluid img-thumbnail shadow mx-auto d-block rounded-circle">
+                </div>
             </div>
         </div>
-        <footer id="quickFooter">
-        </footer>
-    </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card shadow">
+                        <img src="images/nlybb.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body" style="min-height:35vh">
+                            <h5 class="card-title">Never Leave Your Buddy Behind</h5>
+                            <p class="card-text">A Simple 3D Game for GMTK 2021. Not my Best work, but something I'm proud of to this day.</p>
+                            <div>
+                                <a href="https://github.com/SteelCantSpeak/NeverLeaveYourBuddyBehind_Game" class="btn btn-primary">View Project</a>
+                                <a href="https://steelcantspeak.itch.io/nlybb" class="btn btn-secondary">Play Online</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card shadow">
+                        <img src="images/blake-connally-IKUYGCFmfw4-unsplash.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body" style="min-height:35vh">
+                            <h5 class="card-title">My Portfolio</h5>
+                            <p class="card-text">[RECURSION HAZARD] A DIY website made using Bootstrap and HTML5. Hosted On GitHub.</p>
+                            <div>
+                                <a href="https://github.com/SteelCantSpeak/SteelCantSpeak.github.io" class="btn btn-primary">View Project</a>
+                                <a href="#" class="btn btn-secondary">Open</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card shadow">
+                        <img src="images/sumo.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body" style="min-height:35vh">
+                            <h5 class="card-title">WIP: Robot Sumo</h5>
+                            <p class="card-text">Demo created to show the use of custom Rendering in the Browser with Three.JS and Cannon-es</p>
+                            <a href="https://github.com/SteelCantSpeak/effective-story-machine" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="https://linkedin.com/in/cschndr" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/SteelCantSpeak" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" title="Website"><i class="fas fa-globe"></i></a>
+                <!-- Add more social media links as needed -->
+            </div>
+            <div class="copyright">
+                <p>&copy; 2022 - 2024 SteelCantSpeak - All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
