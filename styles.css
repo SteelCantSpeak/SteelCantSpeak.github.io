@@ -1,56 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 html {
     scroll-behavior: smooth; /* For modern browsers */
 }
 
 body {
-    background-color: rgba(186,192,226,0.5);
+    background-color: rgb(41, 45, 68);
+}
+p {
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-bottom: 10px;
 }
 
-.hero-section {
-    background: url("images/blake-connally-IKUYGCFmfw4-unsplash.jpg") no-repeat center center;
-    background-size: cover;
-    color: white;
-    height: 100vh;
-    background-blend-mode: multiply;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+li {
+    color: rgb(201, 201, 201);
 }
 
-.hero-section h1 {
-    font-size: 4rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+li > a {
+    color: inherit;
+    text-decoration: none;
 }
 
-.section-padding {
-    padding: 60px 0;
+li > a:hover {
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.project-card {
-    transition: transform 0.3s;
+.form-input {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.project-card:hover {
-    transform: scale(1.05);
+label {
+    text-decoration: underline;
 }
 
-.footer {
-    background-color: #343a40;
-    color: #ffffff;
-    padding: 20px 0;
+
+.break {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 2px;
+    background: linear-gradient(64.5deg, rgb(116, 219, 245) 14.7%, rgb(53, 57, 109) 88.7%);
 }
 
-.footer .social-icons a {
-    color: #ffffff;
-    font-size: 1.5rem;
-    margin: 0 10px;
+nav {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    background-color: rgb(41, 45, 68);
 }
 
-.footer .social-icons a:hover {
-    color: #adb5bd;
+footer {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 4px;
+    background-color: rgb(41, 45, 68);
+    padding-top: 5px;
+    margin-top: 25px;
 }
 
-.footer .copyright {
-    margin-top: 10px;
+#hero {
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+}
+
+#hero i {
+    font-size: 32px;
+}
+
+.text {
+  width: 450px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
 }
