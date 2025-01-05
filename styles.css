@@ -123,3 +123,8 @@ p {
 .midnight {
   color: #2c3e50;
 }
+
+
+:root {
+  --highlight-color: #c9c9c9;  /* Example color */
+}
