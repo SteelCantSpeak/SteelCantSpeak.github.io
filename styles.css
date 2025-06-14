@@ -1,130 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+
 html {
     scroll-behavior: smooth; /* For modern browsers */
 }
 
 body {
-    background-color: rgb(41, 45, 68);
-}
-p {
-    color: rgb(255, 255, 255);
-    padding-left: 5px;
-    padding-bottom: 10px;
+    background-color: rgb(212, 219, 255);
 }
 
-li {
-    color: rgb(201, 201, 201);
+.card {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    color: white;
 }
 
-li > a {
-    color: inherit;
-    text-decoration: none;
-}
-
-li > a:hover {
-    color: inherit;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.form-input {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-label {
-    text-decoration: underline;
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* optional: darken overlay */
 }
 
 
-.break {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 2px;
-    background: linear-gradient(64.5deg, rgb(116, 219, 245) 14.7%, rgb(53, 57, 109) 88.7%);
+.img-fit {
+    height: 200px;
+    /* or whatever fixed height you want */
+    object-fit: cover;
 }
 
-nav {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
-    background-color: rgb(41, 45, 68);
-}
-
-footer {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 4px;
-    background-color: rgb(41, 45, 68);
-    padding-top: 5px;
-    margin-top: 25px;
-}
-
-#hero {
-    font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 72px;
-}
-
-#hero i {
-    font-size: 32px;
-}
-
-.text {
-  width: 450px;
-}
-
-p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
-}
-
-.word {
-  position: absolute;
-  opacity: 0;
-}
-
-.letter {
-  display: inline-block;
-  position: relative;
-  transform: translateZ(25px);
-  transform-origin: 50% 50% 25px;
-}
-
-.letter.out {
-  transform: rotateX(90deg);
-  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.letter.behind {
-  transform: rotateX(-90deg);
-}
-
-.letter.in {
-  transform: rotateX(0deg);
-  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.wisteria {
-  color: #8e44ad;
-}
-
-.belize {
-  color: #2980b9;
-}
-
-.pomegranate {
-  color: #c0392b;
-}
-
-.green {
-  color: #16a085;
-}
-
-.midnight {
-  color: #2c3e50;
-}
-
-
-:root {
-  --highlight-color: #c9c9c9;  /* Example color */
+.list-block {
+    color: black;
+    font-weight: normal;
 }
