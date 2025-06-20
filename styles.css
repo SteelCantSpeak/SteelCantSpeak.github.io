@@ -32,3 +32,20 @@ body {
     color: black;
     font-weight: normal;
 }
+
+.skill-block {
+    background-color: rgb(209, 209, 209);
+}
+
+.skill-block:hover {
+    background-color: rgb(104, 129, 197);
+}
+
+.social-icons a {
+      font-size: 2.5rem;
+      margin-right: 15px;
+      color: #495057;
+    }
+    .social-icons a:hover {
+      color: #0d6efd;
+    }
